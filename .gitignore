@@ -1,32 +1,20 @@
-# Prerequisites
-*.d
+.vs
+*.vcxproj.user
+Debug
+Release
+Debug Library
+Release Library
+x64
+/Win32/Win32 008/Win32 008.aps
+/Database/downloads
+/Network/008 Protobuf/external/protobuf-master
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+/Network/008 Protobuf/external/_prebuild
+/Graphic/UnityShader/UnityProject/Temp
+/Graphic/UnityShader/UnityProject/Library
+/Graphic/UnityShader/UnityProject/UnityProject.csproj
+/Graphic/UnityShader/UnityProject/UnityProject.sln
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+/MacOSX/MacOSX 001/MacOSX 001.xcodeproj/xcuserdata
+/MacOSX/MacOSX 001/MacOSX 001.xcodeproj/project.xcworkspace/xcuserdata
+/Graphic/UnityShader/UnityProject/UnityProject.Editor.csproj

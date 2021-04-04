@@ -1,0 +1,22 @@
+#version 330
+
+layout(location = 0) in vec3 v_pos;
+layout(location = 1) in vec4 v_color;
+layout(location = 2) in vec3 v_normal;
+layout(location = 3) in vec2 v_uv;
+
+out vec3 p_pos;
+out vec4 p_color;
+out vec3 p_normal;
+out vec2 p_uv;
+
+uniform mat4 matMVP; // Projection * ModelView
+
+void main() {
+	p_color  = v_color;
+	p_normal = v_normal;
+	p_uv = v_uv;	
+	p_pos = v_pos;
+			
+	gl_Position = matMVP * vec4(p_pos, 1.0);
+}

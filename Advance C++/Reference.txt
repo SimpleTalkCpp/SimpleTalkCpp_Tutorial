@@ -1,0 +1,47 @@
+Advance C++ #  (廣東話, Cantonese) [簡單黎講 C++]
+
+簡單黎講 C++ - Advance C++
+廣東話 C++ 教學系列 https://www.youtube.com/channel/UCWW9g_90Ik1U8ULNG5PvoYQ
+
+facebook page
+https://www.facebook.com/%E7%B0%A1%E5%96%AE%E9%BB%8E%E8%AC%9B-C-Plus-Plus-319894615140227
+
+歡迎留言 詢問關於 C++ 問題
+
+Example Source Code:
+	https://github.com/SimpleTalkCpp/SimpleTalkCpp_Tutorial
+
+Reference:
+	MIT Open Source Ware - Performance Engineering of Software Systems
+	https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2010/video-lectures/
+
+	Why C++ Sails When the Vasa Sank
+	https://www.youtube.com/watch?v=ltCgzYcpFUI
+	
+	CppCon 2014: Leor Zolman " An Overview of C++11/14"
+	https://www.youtube.com/watch?v=Gycxew-hztI&index=27&list=PLHTh1InhhwT7esTl1bRitiizeEnksGU7J
+	https://www.youtube.com/watch?v=pBI0tS2yfjw&index=28&list=PLHTh1InhhwT7esTl1bRitiizeEnksGU7J
+	
+	CppCon 2014: Jon Kalb "Exception-Safe Code, Part I"
+	https://www.youtube.com/watch?v=W7fIy_54y-w&index=38&list=PLHTh1InhhwT7esTl1bRitiizeEnksGU7J
+	https://www.youtube.com/watch?v=b9xMIKb1jMk&index=39&list=PLHTh1InhhwT7esTl1bRitiizeEnksGU7J
+	https://www.youtube.com/watch?v=MiKxfdkMJW8&index=40&list=PLHTh1InhhwT7esTl1bRitiizeEnksGU7J
+	
+	CppCon 2014: Stephan Lavavej "STL Features And Implementation Techniques"
+	https://www.youtube.com/watch?v=dTeKf5Oek2c&index=41&list=PLHTh1InhhwT7esTl1bRitiizeEnksGU7J
+	
+	CppCon 2016: Dan Higgins “Using STL containers efficiently"
+	https://www.youtube.com/watch?v=oBbGC-sUYVA
+	
+	CppCon 2016: Jason Jurecka “Game engine using STD C++ 11"
+	https://www.youtube.com/watch?v=8AjRD6mU96s&list=PLHTh1InhhwT7J5jl4vAhO1WvGHUUFgUQH&index=74
+			
+	CppCon 2017: John Lakos “Local ('Arena') Memory Allocators 
+	https://www.youtube.com/watch?v=nZNd5FjSquk
+	https://www.youtube.com/watch?v=CFzuFNSpycI
+	
+	CppCon 2017: Jason Turner “Practical C++17”
+	https://www.youtube.com/watch?v=nnY4e4faNp0&index=58&list=PLHTh1InhhwT6bwIpRk0ZbCA0N2p1taxd6
+
+tags:
+	廣東話 C++ 教學, 簡單黎講 C++, C++ in Cantonese, Advance C++, Performance, 廣東話, 程式設計

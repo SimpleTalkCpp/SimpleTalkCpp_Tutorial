@@ -1,0 +1,37 @@
+RayTracing #  (廣東話, Cantonese) [簡單黎講 C++]
+
+簡單黎講 C++ - RayTracing
+廣東話 C++ 教學系列 https://www.youtube.com/channel/UCWW9g_90Ik1U8ULNG5PvoYQ
+
+facebook page
+https://www.facebook.com/%E7%B0%A1%E5%96%AE%E9%BB%8E%E8%AC%9B-C-Plus-Plus-319894615140227
+
+歡迎留言 詢問關於 C++ 問題
+
+Example Source Code:
+	https://github.com/SimpleTalkCpp/SimpleTalkCpp_Tutorial
+
+Reference:		
+
+	Physically Based Rendering, Third Edition: From Theory to Implementation
+	http://www.pbrt.org/
+	https://www.amazon.com/Physically-Based-Rendering-Third-Implementation/dp/0128006455/ref=sr_1_1?ie=UTF8&qid=1511574718&sr=8-1&keywords=Physically+Based+Rendering
+	ISBN-13: 978-0128006450
+
+	MIT OCW - 6.837 Computer Graphics
+	https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-837-computer-graphics-fall-2012/
+	
+	Realtimerendering.com
+	http://www.realtimerendering.com/intersections.html
+	https://www.amazon.com/Real-Time-Rendering-Third-Tomas-Akenine-Moller/dp/1568814240/ref=sr_1_1?ie=UTF8&qid=1511574791&sr=8-1&keywords=realtime+rendering
+	ISBN-13: 978-1568814247 
+	 	 
+	Learn Computer Graphics From Scratch!
+	https://www.scratchapixel.com/index.php?redirect
+	
+	Computer Graphics: Principles and Practice in C (2nd Edition)
+	https://www.amazon.com/Computer-Graphics-Principles-Practice-2nd/dp/0201848406/ref=sr_1_1?ie=UTF8&qid=1511575694&sr=8-1&keywords=computer+graphics+in+C
+	ISBN-13: 978-0201848403 
+		
+tags:
+	廣東話 C++ 教學, 簡單黎講 C++, C++ in Cantonese, RayTracing, 3D Rendering, 廣東話 程式設計

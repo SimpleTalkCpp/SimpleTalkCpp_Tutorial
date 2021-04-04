@@ -1,0 +1,6 @@
+[submodule "C Basic/C Basic 020 - CMake, vcpkg/Ex003/fmt"]
+	path = C Basic/C Basic 020 - CMake/Ex003/fmt
+	url = https://github.com/fmtlib/fmt.git
+[submodule "C Basic/C Basic 020 - CMake, vcpkg/Ex004 - vcpkg/vcpkg"]
+	path = C Basic/C Basic 021 - vcpkg/Ex004/vcpkg
+	url = https://github.com/microsoft/vcpkg.git

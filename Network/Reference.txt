@@ -1,0 +1,28 @@
+Network C++ #  (廣東話, Cantonese) [簡單黎講 C++]
+
+簡單黎講 C++ - Network Programming C++
+廣東話 C++ 教學系列 https://www.youtube.com/channel/UCWW9g_90Ik1U8ULNG5PvoYQ
+
+facebook page
+https://www.facebook.com/%E7%B0%A1%E5%96%AE%E9%BB%8E%E8%AC%9B-C-Plus-Plus-319894615140227
+
+歡迎留言 詢問關於 C++ 問題
+
+Example Source Code:
+	https://github.com/SimpleTalkCpp/SimpleTalkCpp_Tutorial
+
+Reference:		
+	Unix Network Programming, Volume 1: The Sockets Networking API 
+	https://www.amazon.com/Unix-Network-Programming-Sockets-Networking/dp/0131411551/ref=sr_1_1?ie=UTF8&qid=1509293928&sr=8-1&keywords=unix+network+programming
+	ISBN-13: 978-0131411555
+
+	TCP/IP Illustrated, Volume 1: The Protocols (2nd Edition)
+	https://www.amazon.com/TCP-Illustrated-Protocols-Addison-Wesley-Professional/dp/0321336313/ref=sr_1_1?ie=UTF8&qid=1509293940&sr=8-1&keywords=tcp+ip+illustrated
+	ISBN-13: 978-0321336316
+
+	TCP/IP Illustrated: The Implementation, Vol. 2
+	https://www.amazon.com/TCP-IP-Illustrated-Implementation-Vol/dp/020163354X/ref=sr_1_2?ie=UTF8&qid=1509293940&sr=8-2&keywords=tcp+ip+illustrated
+	ISBN-13: 978-0201633542
+	
+tags:
+	廣東話 C++ 教學, 簡單黎講 C++, C++ in Cantonese, Network, Socket, 廣東話 程式設計

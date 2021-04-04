@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex002 - Xmas Tree", "Ex002 - Xmas Tree.csproj", "{894757BB-1C84-4FCC-B495-FA8DAF32FD05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{894757BB-1C84-4FCC-B495-FA8DAF32FD05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{894757BB-1C84-4FCC-B495-FA8DAF32FD05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{894757BB-1C84-4FCC-B495-FA8DAF32FD05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{894757BB-1C84-4FCC-B495-FA8DAF32FD05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B12166D0-47A7-4E88-A759-BBCB4DFBA03E}
+	EndGlobalSection
+EndGlobal

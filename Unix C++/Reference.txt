@@ -1,0 +1,27 @@
+Unix C++ #  (廣東話, Cantonese) [簡單黎講 C++]
+
+簡單黎講 C++ - Unix Programming C++
+廣東話 C++ 教學系列 https://www.youtube.com/channel/UCWW9g_90Ik1U8ULNG5PvoYQ
+
+facebook page
+https://www.facebook.com/%E7%B0%A1%E5%96%AE%E9%BB%8E%E8%AC%9B-C-Plus-Plus-319894615140227
+
+歡迎留言 詢問關於 C++ 問題
+
+Example Source Code:
+	https://github.com/SimpleTalkCpp/SimpleTalkCpp_Tutorial
+
+Reference:	
+	Advanced Programming in the UNIX Environment
+	https://www.amazon.com/Advanced-Programming-UNIX-Environment-3rd/dp/0321637739/ref=pd_bxgy_14_img_2?_encoding=UTF8&psc=1&refRID=902TP416N4VMZ0XKTQHE	
+	ISBN-13: 978-0321637734
+
+	The Art of UNIX Programming (The Addison-Wesley Professional Computng Series)
+	https://www.amazon.com/UNIX-Programming-Addison-Wesley-Professional-Computng/dp/0131429019
+	ISBN-13: 978-0131429017	
+	
+	POSIX Library
+	https://en.wikipedia.org/wiki/C_POSIX_library
+	
+tags:
+	廣東話 C++ 教學, 簡單黎講 C++, C++ in Cantonese, Posix, Unix, Linux, 廣東話 程式設計

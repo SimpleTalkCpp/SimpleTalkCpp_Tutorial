@@ -1,0 +1,27 @@
+vi editor
+	- move cursor
+			  ^
+		<-H J K L->
+			v
+	- (i) insert
+	- (a) append
+	- (o) open new line
+	- (x) delete character
+	- end of file $
+	- end of line $
+	- (w) save
+	- (q) quit
+	- (wq) save and quit
+	- (yy,  p) copy / paste
+	- (yNy) copy multiple lines
+	- (dd) delete line
+	- (dNd) delete multiple lines	
+	- (dw) delete word
+	- (u) Undo	
+	- (/<text>) search
+	- (?<text>) backward search	
+	- (:set ts) set tab stop width
+	- (:set number) show line numbers
+	- .exrc	
+	- (:<line number> goto line number
+	- (G) goto end of file	

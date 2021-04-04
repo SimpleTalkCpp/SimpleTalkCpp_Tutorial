@@ -1,0 +1,42 @@
+x86 Assembly #  (廣東話, Cantonese) [簡單黎講 C++]
+
+簡單黎講 C++ - x86 Assembly
+廣東話 C++ 教學系列 https://www.youtube.com/channel/UCWW9g_90Ik1U8ULNG5PvoYQ
+
+facebook page
+https://www.facebook.com/%E7%B0%A1%E5%96%AE%E9%BB%8E%E8%AC%9B-C-Plus-Plus-319894615140227
+
+歡迎留言 詢問關於 C++ 問題
+
+Example Source Code:
+	https://github.com/SimpleTalkCpp/SimpleTalkCpp_Tutorial
+
+Reference:		
+
+	Microsoft Macro Assembler Reference
+	- https://msdn.microsoft.com/en-us/library/afzk3475.aspx
+
+	Visual Studio - Registers Window (Intel x86 Processor Flags) 
+	- https://msdn.microsoft.com/en-us/library/kwydd1t7%28v=vs.85%29.aspx
+	
+	x86 Assembly Guide
+	- http://www.cs.virginia.edu/~evans/cs216/guides/x86.html
+	
+	Windows Assembly Programming Tutorial
+	- https://www-s.acm.illinois.edu/sigwin/old/workshops/winasmtut.pdf
+
+	x86 instruction listings
+	- https://en.wikipedia.org/wiki/X86_instruction_listings
+
+	Intel® 64 and IA-32 Architectures Software Developer’s Manual
+	- https://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-instruction-set-reference-manual-325383.pdf
+	
+	MASM32 SDK
+	http://www.masm32.com/
+	
+Books:
+		
+tags:
+	廣東話 C++ 教學, 簡單黎講 C++, C++ in Cantonese, MASM, Assembly, SIMD, Interrupt, 廣東話 程式設計
+	
+	

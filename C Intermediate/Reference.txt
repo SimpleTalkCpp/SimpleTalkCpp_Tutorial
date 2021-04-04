@@ -1,0 +1,67 @@
+簡單黎講 C++ - C 語言進階
+廣東話 C++ 教學系列 https://www.youtube.com/channel/UCWW9g_90Ik1U8ULNG5PvoYQ
+
+facebook page
+https://www.facebook.com/%E7%B0%A1%E5%96%AE%E9%BB%8E%E8%AC%9B-C-Plus-Plus-319894615140227
+
+歡迎留言 詢問關於 C++ 問題
+
+Example Source Code:
+	https://github.com/SimpleTalkCpp/SimpleTalkCpp_Tutorial
+
+Reference:
+	
+	Data Structures Using C by Reema Thareja:
+		ISBN-13: 978-0198099307
+		https://www.amazon.com/Structures-Assistant-Professor-Department-Computer/dp/0198099304/ref=pd_sbs_14_1?_encoding=UTF8&pd_rd_i=0198099304&pd_rd_r=81HHHTE1DP735G2N3X5K&pd_rd_w=E8OC9&pd_rd_wg=uDfCG&psc=1&refRID=81HHHTE1DP735G2N3X5K
+
+	Data Structure and Algorithms Tutorial (tutorialspoint):
+		https://www.tutorialspoint.com/data_structures_algorithms/index.htm
+
+	C Linked List (zentut):
+		http://www.zentut.com/c-tutorial/c-linked-list/
+
+	Futher:
+		MIT 6.006 Introduction to Algorithms, Fall 2011
+		https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+
+
+tags:
+	廣東話 C++ 教學, 簡單黎講 C++, C++ in Cantonese, C 語言進階, Pointer, Data Structures, Abstract data type, Linked List, 廣東話 程式設計
+
+	
+	
+========== C Basic ==================
+
+簡單黎講 C++ - C 語言入門
+廣東話 C++ 教學系列 https://www.youtube.com/channel/UCWW9g_90Ik1U8ULNG5PvoYQ
+
+facebook page
+https://www.facebook.com/%E7%B0%A1%E5%96%AE%E9%BB%8E%E8%AC%9B-C-Plus-Plus-319894615140227
+
+歡迎留言 詢問關於 C++ 問題
+
+====== [更新] ======
+在新版本既 Visual Studio, Create Project 時要選 Visual C++, Windows Desktop, Windows Desktop Wizard
+
+C++ Compiler
+Windows - Visual C++: https://www.visualstudio.com/downloads/
+Mac - Xcode in AppStore: https://itunes.apple.com/hk/app/xcode/id497799835?mt=12
+Ubuntu Linux - gcc:  apt install gcc
+
+
+Reference:
+	https://www.eskimo.com/~scs/cclass	
+	https://en.wikibooks.org/wiki/C_Programming
+	http://en.cppreference.com/w/
+
+	C Programming Language, 2nd Edition
+	https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628/ref=sr_1_1?s=books&ie=UTF8&qid=1508700785&sr=1-1&keywords=c+programming
+	ISBN-13: 978-0131103627
+	
+	Programming in C (4th Edition)
+	https://www.amazon.com/Programming-C-4th-Developers-Library/dp/0321776410/ref=pd_sim_14_8?_encoding=UTF8&psc=1&refRID=QK0B63C3A6Y39GN10A92
+	ISBN-13: 978-0321776419
+	
+	
+	

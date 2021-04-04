@@ -1,0 +1,25 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "C++ Launch",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${workspaceRoot}/my_program/my_program",
+			"args": [],
+			"stopAtEntry": false,
+			"cwd": "${workspaceRoot}/my_program",
+			"environment": [],
+			"externalConsole": true,
+			"linux": {
+				"MIMode": "gdb"
+			},
+			"osx": {
+				"MIMode": "lldb"
+			},
+			"windows": {
+				"MIMode": "gdb"
+			}
+		}
+	]
+}

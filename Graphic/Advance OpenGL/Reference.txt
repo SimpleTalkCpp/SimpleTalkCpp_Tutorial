@@ -1,0 +1,38 @@
+OpenGL #  (廣東話, Cantonese) [簡單黎講 C++]
+
+簡單黎講 C++ - Advance OpenGL
+廣東話 C++ 教學系列 https://www.youtube.com/channel/UCWW9g_90Ik1U8ULNG5PvoYQ
+
+facebook page
+https://www.facebook.com/%E7%B0%A1%E5%96%AE%E9%BB%8E%E8%AC%9B-C-Plus-Plus-319894615140227
+
+歡迎留言 詢問關於 C++ 問題
+
+Example Source Code:
+	https://github.com/SimpleTalkCpp/SimpleTalkCpp_Tutorial
+
+Reference:		
+	The OpenGL® Programming Guide (Red Book)
+	- pdf
+		https://www.ics.uci.edu/~gopi/CS211B/opengl_programming_guide_8th_edition.pdf
+	- Hard copy
+		https://www.amazon.com/OpenGL-Programming-Guide-Official-Learning/dp/0134495497/ref=dp_ob_title_bk
+		ISBN-13: 978-0134495491
+		
+	NeHe Productions - Everything OpenGL
+	- http://nehe.gamedev.net/
+	
+	OpenGL 2.1 Reference Pages
+	- https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/
+	
+	OpenGL (MSDN)
+	- https://msdn.microsoft.com/en-us/library/windows/desktop/dd374278(v=vs.85).aspx
+	
+	OpenGL Getting Started
+	- https://www.khronos.org/opengl/wiki/Getting_Started
+		
+	http://www.lighthouse3d.com/
+	- http://www.lighthouse3d.com/
+		
+tags:
+	廣東話 C++ 教學, 簡單黎講 C++, C++ in Cantonese, OpenGL, GLSL, Shader, 3D Rendering, 廣東話 程式設計

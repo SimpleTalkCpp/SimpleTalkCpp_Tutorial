@@ -1,0 +1,22 @@
+!!! C 語言入門 #001.1 -  Create Project 步驟更改 !!!
+https://youtu.be/uxeNRoI5el8
+
+廣東話講解 C/C++ on YouTube
+
+簡單黎講 C++ - C 語言入門
+歡迎留言 詢問關於 C++ 問題
+
+Notes:
+	https://www.eskimo.com/~scs/cclass/notes/top.html
+
+Exercises
+	https://www.w3resource.com/c-programming-exercises/for-loop/index.php
+ 
+Reference:
+	https://en.wikibooks.org/wiki/C_Programming
+	http://en.cppreference.com/w/
+
+Windows - Visual C++: https://www.visualstudio.com/downloads/
+Mac - Xcode in AppStore: https://itunes.apple.com/hk/app/xcode/id497799835?mt=12
+Ubuntu Linux - gcc:  apt install gcc
+

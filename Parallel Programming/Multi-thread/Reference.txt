@@ -1,0 +1,240 @@
+Multi-thread #  (廣東話, Cantonese) [簡單黎講 C++]
+
+簡單黎講 C++ - Multi-thread Programming
+廣東話 C++ 教學系列 https://www.youtube.com/channel/UCWW9g_90Ik1U8ULNG5PvoYQ
+
+facebook page
+https://www.facebook.com/%E7%B0%A1%E5%96%AE%E9%BB%8E%E8%AC%9B-C-Plus-Plus-319894615140227
+
+歡迎留言 詢問關於 C++ 問題
+
+Example Source Code:
+	https://github.com/SimpleTalkCpp/SimpleTalkCpp_Tutorial
+
+Reference:		
+	MSDN Processes and Threads
+	- https://msdn.microsoft.com/en-us/library/windows/desktop/ms684841(v=vs.85).aspx
+	
+	Guide to the POSIX Threads Library
+	- http://h30266.www3.hpe.com/odl/i64os/opsys/vmsos84/documentation/pdf/OVMS_73_posix_threads.PDF
+	
+	PThreads Primer - A Guide to Multithreaded Programming
+	- http://www8.cs.umu.se/kurser/TDBC64/VT03/pthreads/pthread-primer.pdf
+	
+	MacOSX Threading PRogramming Guide
+	- https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Multithreading/Introduction/Introduction.html
+
+	C++11 Standard Library Extensions — Concurrency
+	- https://isocpp.org/wiki/faq/cpp11-library-concurrency
+	
+	Facebook C++ Library - Folloy Synchronized
+	- https://github.com/facebook/folly/blob/master/folly/docs/Synchronized.md
+		
+	UC Berkeley CS162 Operating Systems and Systems Programming - Falll 2010
+	- https://www.youtube.com/playlist?list=PLXEcjDJ1Ogg6DLOSMYWeGclZzzONHgZwc
+	- https://inst.eecs.berkeley.edu/~cs162/fa10/
+	- https://inst.eecs.berkeley.edu/~cs162/fa10/lectures.html
+
+	CppCon 2016: David Watson “Experiences with Facebook's C++ library"
+	- https://www.youtube.com/watch?v=GDxb21kEthM&t=165s
+	- https://github.com/facebook/folly
+
+	Parallelizing the Naughty Dog Engine Using Fibers
+	- https://www.gdcvault.com/play/1022186/Parallelizing-the-Naughty-Dog-Engine
+	
+Books:
+	UNIX Network Programming, Volume 2: Interprocess Communications, Second Edition 2nd 
+	- ISBN-13: 978-0130810816
+	- https://www.amazon.com/UNIX-Network-Programming-Interprocess-Communications/dp/0130810819/ref=pd_sim_14_1?_encoding=UTF8&pd_rd_i=0130810819&pd_rd_r=KSREB0X70FTCS7XDCTN7&pd_rd_w=WqAlm&pd_rd_wg=ecTP9&psc=1&refRID=KSREB0X70FTCS7XDCTN7
+	
+	Programming Applications for Microsoft Windows (Dv-Mps General) 
+	- ISBN-13: 978-1572319967
+	- https://www.amazon.com/Programming-Applications-Microsoft-Windows-General/dp/1572319968/ref=sr_1_6?s=books&ie=UTF8&qid=1515534457&sr=1-6&keywords=Windows+Application+programming
+		
+		
+tags:
+	廣東話 C++ 教學, 簡單黎講 C++, C++ in Cantonese, multi-thread, multitasking, pthread, NSThread, thread, mutex, condition_variable, spin lock, lock, race condition, Semaphore, Thread Local Storage, 廣東話 程式設計
+	
+	
+==================================================================================	
+- Thread Scheduling
+	- https://en.wikipedia.org/wiki/Scheduling_(computing)
+	- Context Switching
+		- https://en.wikipedia.org/wiki/Context_switch
+		
+- Process
+	- One Main Thread
+	- Address Space
+	- File Handles
+
+- Preemptive multitasking vs Cooperative multitasking
+	- CPU Interrupt
+	- IRQ (Interrupt request)
+		- https://en.wikipedia.org/wiki/Interrupt_request_(PC_architecture)
+
+- create thread
+	- Win32 CreateThread
+	- pthread_create
+	- [NSThread init]
+	- std::thread
+
+- thread stack size
+	- Win32 specify when create thread
+	- pthread_attr_setstacksize
+	- NSThread stackSize (set before starting your thread)
+	- std::thread no such option
+	
+- thread priority
+	- Win32 SetThreadPriority
+	- pthread_setschedparam
+	- NSThread.setThreadPriority
+	- std::thread no such option
+	
+- Processor affinity
+	- Win32 SetThreadAffinityMask
+	- pthread_setaffinity_np
+	- NSThread doesn't export interface from 
+	- std::thread no such option
+	
+- Suspend Thread
+	- Win32 SuspendThread
+	
+- Kill Thread
+	- Win32 TerminateThread
+	- pthread_kill - send a signal to a thread
+	- NSThread no such fucntion, can use NSThread +cancel and exit itself
+	
+- Exit Thread
+	- Win32 ExitThread()	
+	- pthread_exit
+	- NSThread +exit
+	
+- get thread id
+	- GetThreadId
+	- pthread_self
+	- [NSThread currentThread]
+	- C++11 std::this_thread::get_id()
+
+- join Thread
+	- Win32 WaitForMultipleObjects()
+	- pthread_join
+	- NSThread no such function
+	- std::thread::join
+
+- volatile (C++ keyword)
+	- http://en.cppreference.com/w/cpp/language/cv
+	
+- Lock / Mutex (Mutual exclusion)
+	- EnterCriticalSection / CreateMutex
+	- pthread_mutex_init
+	- NSLock
+	- C++11 mutex
+	- printf / std::cout (non-atomic)
+	
+- lock_guard
+	- exception safety
+
+- try_lock
+
+- Spin Lock
+	- EnterCriticalSection
+	- gcc __sync_lock_test_and_set
+	- pthread_spin_init
+	- NSLock
+	- OSSpinLockLock
+	
+- Recursive Lock
+	- EnterCriticalSection
+	- pthread_mutexattr_t
+	- NSRecursiveLock
+	- C++11 - recursive_mutex
+	
+- Race conditions
+	- deadlock
+		
+Synchronization
+- Sleep
+	- Win32 Sleep()
+	- Unix sleep(microseconds) / nanosleep
+	- NSThread +sleepUntilDate
+	- NSThread +sleepForTimeInterval
+	- std::this_thread::sleep_for(chrono::milliseconds(500));
+	- std::this_thread::sleep_until(sleep_time);
+
+- yield
+	- std::this_thread::yield();
+
+- Queue / Message
+	- Producer-consumer problem
+
+- CondVar
+	it cannot assume that the predicate
+	for which it is waiting will be satisfied when the condition variable wait returns.
+	There are a number of reasons for this behavior. For instance, condition variable
+	waits may return spuriously, meaning that the return may not be directly due to
+	some other thread signaling or broadcasting the condition variable
+
+	- pthread_cond_init
+	- NSCondition
+	- std::condition_variable
+
+- Semaphore
+	- CondVar + available counter
+	- Win32 CreateSemaphore
+		- https://msdn.microsoft.com/en-us/library/windows/desktop/ms686946(v=vs.85).aspx
+	- pthread sem_init
+	
+- Win32 Event
+	- WaitForMultipleObjects
+		- Wait Event
+		- Wait Mutex / Semaphore / Timer
+		- Wait Thread (Join)
+		
+- shared_ptr
+	- only the reference count is thread-safety
+	- atomic_shared_ptr (C++20)
+
+- Read / Write Lock
+	- pthread_rwlock_init
+	- std::shared_mutex
+	
+- Futex
+- AtomicInt / Ptr
+	- Win32 - InterlockedCompareExchange 
+	- gcc -  __atomic_compare_exchange
+	- MacOSX - OSAtomicCompareAndSwap64
+	- FreeBSD - atomic_cmpset_int
+	- x86 asm
+		inline int _atomic_cmpset( volatile int *mem, int with, int cmp ) {
+			int prev;
+			asm volatile( "lock; cmpxchgl %1, %2"
+						 : "=a" (prev)
+						 : "r" (with), "m" (*(mem)), "0"(cmp)
+						 : "memory", "cc");
+			return prev;
+		}	
+	
+	- lock free linked list
+	
+- Thread Local Storage
+	- Win32 TlsGetValue
+	- pthread_key_create
+	- gcc __thread
+	- [NSThread threadDictionary]
+	- C++11 thread_local
+	
+- Thread Pool
+- Job manager
+		
+- further studies	
+	- co-Routine / Fibers
+	- c++11 async/future
+	- OpenMP
+	- Intel Threading Building Blocks
+	- Objective-C Dispatch Queues
+	- OpenCL
+	- CUDA	
+	
+	
+	
+	

@@ -1,0 +1,48 @@
+// glslv output by Cg compiler
+// cgc version 3.1.0013, build date Apr 18 2012
+// command line args: -profile glslv -po version=330
+// source file: cg001.cg
+//vendor NVIDIA Corporation
+//version 3.1.0.13
+//profile glslv
+//program vs_main
+//semantic matMVP
+//var float4x4 matMVP :  : _matMVP[0], 4 : -1 : 1
+//var float4 v.pos : $vin.POSITION : POSITION : 0 : 1
+//var float2 v.uv : $vin.TEXCOORD0 :  : 0 : 0
+//var float4 v.color : $vin.COLOR : COLOR : 0 : 1
+//var float4 vs_main.pos : $vout.POSITION : HPOS : -1 : 1
+//var float4 vs_main.color : $vout.COLOR : COLOR : -1 : 1
+
+#version 330
+
+struct vertexInput {
+    vec4 _pos;
+    vec2 _uv;
+    vec4 _color;
+};
+
+struct v2f {
+    vec4 _pos1;
+    vec4 _color1;
+};
+
+vec4 _r0003;
+in vec4 COLOR;
+uniform vec4 _matMVP[4];
+in vec4 cg_Vertex;
+out vec4 cg_FrontColor;
+
+ // main procedure, the original name was vs_main
+void main()
+{
+
+
+    _r0003 = cg_Vertex.x*_matMVP[0];
+    _r0003 = _r0003 + cg_Vertex.y*_matMVP[1];
+    _r0003 = _r0003 + cg_Vertex.z*_matMVP[2];
+    _r0003 = _r0003 + cg_Vertex.w*_matMVP[3];
+    gl_Position = _r0003;
+    cg_FrontColor = COLOR;
+    return;
+} // main end

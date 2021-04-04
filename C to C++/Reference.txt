@@ -1,0 +1,49 @@
+C to C++ #  (廣東話, Cantonese) [簡單黎講 C++]
+
+
+簡單黎講 C++ - C to C++
+廣東話 C++ 教學系列 https://www.youtube.com/channel/UCWW9g_90Ik1U8ULNG5PvoYQ
+
+facebook page
+https://www.facebook.com/%E7%B0%A1%E5%96%AE%E9%BB%8E%E8%AC%9B-C-Plus-Plus-319894615140227
+
+歡迎留言 詢問關於 C++ 問題
+
+Example Source Code:
+	https://github.com/SimpleTalkCpp/SimpleTalkCpp_Tutorial
+
+Reference:
+	C++ tutorial for C users
+	http://joule.bu.edu/~hazen/progr/cppcen.html
+	
+	C++ Tutorial
+	http://www.cprogramming.com/tutorial/c++-tutorial.html
+	
+	C++ Language
+	http://www.cplusplus.com/doc/tutorial/
+	
+	http://www.learncpp.com/
+	
+Reference Books:	
+	C++ Primer Plus
+	https://www.amazon.com/C-Primer-Plus-Developers-Library-ebook/dp/B005OR9MWQ/ref=pd_sim_351_4?_encoding=UTF8&psc=1&refRID=FN4JPWKVHAXNCQR3DZ0X
+	ISBN-13: 978-0321776402 
+	
+	Design Patterns: Elements of Reusable Object-Oriented Software
+	https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented-ebook/dp/B000SEIBB8
+	ISBN-13: 978-0201633610 
+	
+Further Reading:	
+	Effective C++
+	https://www.amazon.com/Effective-Specific-Addison-Wesley-Professional-Computing-ebook/dp/B004V4420U/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1501932859&sr=1-1&keywords=effective+C%2B%2B
+	ISBN-13: 978-0321334879
+	
+	More Effective C++
+	https://www.amazon.com/More-Effective-Addison-Wesley-Professional-Computing-ebook/dp/B004VSMDNY/ref=sr_1_4?s=digital-text&ie=UTF8&qid=1501932859&sr=1-4&keywords=effective+C%2B%2B
+	ISBN-13: 978-0201633719
+	
+	
+tags:
+	廣東話 C++ 教學, 簡單黎講 C++, C++ in Cantonese, C 語言進階, Pointer, Data Structures, Abstract data type, Linked List, 廣東話 程式設計
+
+	

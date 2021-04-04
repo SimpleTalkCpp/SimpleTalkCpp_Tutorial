@@ -1,0 +1,33 @@
+// glslf output by Cg compiler
+// cgc version 3.1.0013, build date Apr 18 2012
+// command line args: -profile glslf -po version=330
+// source file: cg001.cg
+//vendor NVIDIA Corporation
+//version 3.1.0.13
+//profile glslf
+//program ps_main
+//semantic matMVP
+//var float4 i.color : $vin.COLOR :  : 0 : 0
+//var float4 ps_main : $vout.COLOR : COLOR : -1 : 1
+
+#version 330
+
+struct vertexInput {
+    vec2 _uv;
+    vec4 _color1;
+};
+
+struct v2f {
+    vec4 _color;
+};
+
+out vec4 cg_FragColor;
+
+ // main procedure, the original name was ps_main
+void main()
+{
+
+
+    cg_FragColor = vec4( 1.00000000E+000, 1.00000000E+000, 0.00000000E+000, 1.00000000E+000);
+    return;
+} // main end

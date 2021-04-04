@@ -1,0 +1,21 @@
+#version 330
+
+layout(location = 0) out vec4 outColor;
+
+in vec3 p_pos;
+in vec4 p_color;
+in vec3 p_normal;
+in vec2 p_uv;
+
+uniform sampler2D sampler0;
+uniform sampler2D sampler1;
+uniform float uptime;
+
+void main() {	
+	vec4 texColor0 = texture(sampler0, p_uv);
+	vec4 texColor1 = texture(sampler1, p_uv + vec2(uptime * 0.2,0));
+//	vec4 texColor1 = texture(sampler1, p_uv + vec2(texColor0.r + uptime));
+
+	vec4 t = texColor0 * texColor1;
+	outColor = p_color * t;
+}
