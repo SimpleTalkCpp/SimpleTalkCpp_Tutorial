@@ -62,7 +62,7 @@ namespace Utf {
 				auto b = (char32_t)*p; p++;
 				auto c = (char32_t)*p; p++;
 				auto d = (char32_t)*p; p++;
-				char32_t v = ((a & 0x07) << 18) | ((b & 0x3F) << 12) | ((c & 0x3F) << 6) | (c & 0x3F);
+				char32_t v = ((a & 0x07) << 18) | ((b & 0x3F) << 12) | ((c & 0x3F) << 6) | (d & 0x3F);
 				o.push_back(v);
 			}
 		}
