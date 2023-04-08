@@ -15,11 +15,11 @@ public:
 	      T& operator[](int i)       { return at(i); }
 	const T& operator[](int i) const { return at(i); }
 
-		  T& back()					{ return at(m_size -1); }
-	const T& back() const			{ return at(m_size -1); }
+		  T& back()					{ return at(N -1); }
+	const T& back() const			{ return at(N -1); }
 
-		  T& back(int i)			{ return at(m_size -i -1); }
-	const T& back(int i) const		{ return at(m_size -i -1); }
+		  T& back(int i)			{ return at(N -i -1); }
+	const T& back(int i) const		{ return at(N -i -1); }
 
 	bool inBound(int i) const		{ return i >= 0 && i < N; }
 
