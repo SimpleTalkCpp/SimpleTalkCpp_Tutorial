@@ -237,7 +237,7 @@ LRESULT WINAPI MyOpenGLWindow::WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARA
 		case WM_CREATE:	{
 			auto* cs = reinterpret_cast<CREATESTRUCT*>(lParam);
 			auto* thisObj = reinterpret_cast<MyOpenGLWindow*>(cs->lpCreateParams);
-			SetWindowLongPtr(hwnd, GWLP_USERDATA, (LONG)thisObj);
+			SetWindowLongPtr(hwnd, GWLP_USERDATA, reinterpret_cast<LONG_PTR>(thisObj));
 		}break;
 
 		case WM_PAINT: {
