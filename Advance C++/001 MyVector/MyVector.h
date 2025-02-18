@@ -4,6 +4,8 @@
 #include <new>
 #include <stdio.h>
 #include <cassert>
+#include <utility> // std::move
+#include <cstring> // memcpy
 
 class NonCopyable {
 public:
@@ -201,7 +203,7 @@ class MyVector : public MyIVector<T>, public LocalBuf<T, LOCAL_BUF_SIZE> {
 	using BUF = LocalBuf<T, LOCAL_BUF_SIZE>;
 public:
 	virtual ~MyVector() {
-		clearAndFree();
+		this->clearAndFree();
 	}
 
 protected:
@@ -219,7 +221,7 @@ protected:
 		}
 	}
 
-	virtual bool isUsingLocalBuf() const { return localBuf() == data(); }
+	virtual bool isUsingLocalBuf() const { return this->localBuf() == this->data(); }
 };
 
 template<typename T>
@@ -317,6 +319,7 @@ void MyIVector<T>::reserve(int n)
 					src->~T();
 				}
 			}
+      onFree(m_data);
 		} catch (...) {
 			onFree(newData);
 			throw;
