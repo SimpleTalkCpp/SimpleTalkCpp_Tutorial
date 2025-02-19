@@ -1,8 +1,11 @@
 #include "MyVector.h"
 #include "MyArray.h"
-#include <conio.h>
 #include <stdio.h>
 #include <vector>
+
+#ifdef _WIN32
+#include <conio.h>
+#endif
 
 class MyColor {
 	float r,g,b,a;
@@ -127,6 +130,9 @@ int main() {
 	test004();
 
 	printf("\n====== Program Ended =========\n");
+
+#ifdef _WIN32
 	_getch();
+#endif
 	return 0;
 }
